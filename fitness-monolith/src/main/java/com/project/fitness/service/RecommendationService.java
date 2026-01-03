@@ -59,17 +59,17 @@ public class RecommendationService {
         return response;
     }
 
-//    public List<RecommendationResponse> getRecommendationByUserId(String userId) {
-//        List<Recommendation> recommendationList = recommendationRepository.findByUserId(userId);
-//
-//        return recommendationList.stream()
-//                .map(this::toMapResponse)
-//                .collect(Collectors.toList());
-//    }
+    public List<RecommendationResponse> getRecommendationByUserId(String userId) {
+        List<Recommendation> recommendationList = recommendationRepository.findByUserId(userId);
 
-    public List<Recommendation> getUserRecommendation(String userId){
-        return recommendationRepository.findByUserId(userId);
+        return recommendationList.stream()
+                .map(this::toMapResponse)
+                .collect(Collectors.toList());
     }
+
+//    public List<Recommendation> getUserRecommendation(String userId){
+//        return recommendationRepository.findByUserId(userId);
+//    }
 
 
     public List<RecommendationResponse> getRecommendationByActivityId(String activityId) {
