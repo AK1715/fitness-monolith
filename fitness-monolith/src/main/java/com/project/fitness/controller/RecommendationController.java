@@ -25,18 +25,18 @@ public class RecommendationController {
                 return ResponseEntity.ok(recommendation);
     }
 
-   @GetMapping("/user/{userId}")
-   public ResponseEntity<List<RecommendationResponse>> getRecommendationByUserId(
-          @PathVariable String userId
-   ){
-       return ResponseEntity.ok(recommendationService.getRecommendationByUserId(userId));
-   }
-    // @GetMapping("/user/{userId}")
-    // public ResponseEntity<List<Recommendation>> getUserRecommendation(
-    //        @PathVariable String userId
-    // ){
-    //     return ResponseEntity.ok(recommendationService.getUserRecommendation(userId));
-    // }
+//    @GetMapping("/user/{userId}")
+//    public ResponseEntity<List<RecommendationResponse>> getRecommendationByUserId(
+//           @PathVariable String userId
+//    ){
+//        return ResponseEntity.ok(recommendationService.getRecommendationByUserId(userId));
+//    }
+    @GetMapping("/user/{userId}")
+    public ResponseEntity<List<Recommendation>> getUserRecommendation(
+           @PathVariable String userId
+    ){
+        return ResponseEntity.ok(recommendationService.getUserRecommendation(userId));
+    }
 
     @GetMapping("activity/{activityId}")
     public ResponseEntity<List<RecommendationResponse>> getRecommendationByActivityId(
