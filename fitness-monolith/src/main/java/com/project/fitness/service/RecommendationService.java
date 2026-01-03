@@ -45,31 +45,31 @@ public class RecommendationService {
 
     }
 
-    private RecommendationResponse toMapResponse(Recommendation recommendation) {
-        RecommendationResponse response = new RecommendationResponse();
-        response.setId(recommendation.getId());
-        response.setUserId(recommendation.getUser().getId());
-        response.setActivityId(recommendation.getActivity().getId());
-        response.setType(recommendation.getType());
-        response.setRecommendation(recommendation.getRecommendation());
-        response.setImprovements(recommendation.getImprovements());
-        response.setSuggestions(recommendation.getSuggestions());
-        response.setSafety(recommendation.getSafety());
+//     private RecommendationResponse toMapResponse(Recommendation recommendation) {
+//         RecommendationResponse response = new RecommendationResponse();
+//         response.setId(recommendation.getId());
+//         response.setUserId(recommendation.getUser().getId());
+//         response.setActivityId(recommendation.getActivity().getId());
+//         response.setType(recommendation.getType());
+//         response.setRecommendation(recommendation.getRecommendation());
+//         response.setImprovements(recommendation.getImprovements());
+//         response.setSuggestions(recommendation.getSuggestions());
+//         response.setSafety(recommendation.getSafety());
 
-        return response;
+//         return response;
+//     }
+
+//    public List<RecommendationResponse> getRecommendationByUserId(String userId) {
+//        List<Recommendation> recommendationList = recommendationRepository.findByUserId(userId);
+
+//        return recommendationList.stream()
+//                .map(this::toMapResponse)
+//                .collect(Collectors.toList());
+//    }
+
+    public List<Recommendation> getUserRecommendation(String userId){
+        return recommendationRepository.findByUserId(userId);
     }
-
-   public List<RecommendationResponse> getRecommendationByUserId(String userId) {
-       List<Recommendation> recommendationList = recommendationRepository.findByUserId(userId);
-
-       return recommendationList.stream()
-               .map(this::toMapResponse)
-               .collect(Collectors.toList());
-   }
-
-    // public List<Recommendation> getUserRecommendation(String userId){
-    //     return recommendationRepository.findByUserId(userId);
-    // }
 
 
     public List<RecommendationResponse> getRecommendationByActivityId(String activityId) {
