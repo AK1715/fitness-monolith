@@ -1,0 +1,15 @@
+package com.project.fitness.repository;
+
+import com.project.fitness.modal.Recommendation;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.repository.query.Param;
+import org.springframework.stereotype.Repository;
+
+import java.util.List;
+
+@Repository
+public interface RecommendationRepository extends JpaRepository<Recommendation, String> {
+    List<Recommendation> findByUserId( String userId);
+
+    List<Recommendation> findByActivityId(String activityId);
+}
