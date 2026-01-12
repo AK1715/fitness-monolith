@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="873d6e0e-7ae6-4f0e-9cd3-8b7378f1a82c" name="Changes" comment="RecommendationService change">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/fitness-monolith.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/com/spring_security/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/src/main/java/com/spring_security/SpringSecurityApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-security/src/test/java/com/spring_security/SpringSecurityApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="873d6e0e-7ae6-4f0e-9cd3-8b7378f1a82c" name="Changes" comment="Update Packages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,7 +152,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767421003890</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update Packages">
+      <option name="closed" value="true" />
+      <created>1768204807544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1768204807544</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +207,7 @@
     <MESSAGE value="new commits" />
     <MESSAGE value="change" />
     <MESSAGE value="RecommendationService change" />
-    <option name="LAST_COMMIT_MESSAGE" value="RecommendationService change" />
+    <MESSAGE value="Update Packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Packages" />
   </component>
 </project>
