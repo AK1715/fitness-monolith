@@ -6,6 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="873d6e0e-7ae6-4f0e-9cd3-8b7378f1a82c" name="Changes" comment="Spring Security With Roles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/dto/RegisterRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/service/UserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -264,20 +272,5 @@
     <MESSAGE value="new changes" />
     <MESSAGE value="Spring Security With Roles" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring Security With Roles" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-method">
-          <url>file://$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtUtils.java</url>
-          <line>31</line>
-          <properties class="com.project.fitness.security.JwtUtils" method="generateToken">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

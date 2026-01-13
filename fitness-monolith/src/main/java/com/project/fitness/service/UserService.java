@@ -1,5 +1,6 @@
 package com.project.fitness.service;
 
+import com.project.fitness.dto.LoginRequest;
 import com.project.fitness.dto.RegisterRequest;
 import com.project.fitness.dto.UserResponse;
 import com.project.fitness.modal.User;
@@ -44,4 +45,15 @@ public class UserService {
         return response;
     }
 
+    public User authenticate(LoginRequest loginRequest) {
+        User user = userRepository.findByEmail(loginRequest.getEmail());
+        if(user == null){
+            throw new RuntimeException("Invalid Credentials");
+        }
+        if(!passwordEncoder.matches(loginRequest.getPassword(), user.getPassword())){
+            throw new RuntimeException("Password does not match");
+        }
+
+        return user;
+    }
 }
