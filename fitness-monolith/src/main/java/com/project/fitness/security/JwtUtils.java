@@ -5,8 +5,6 @@ import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.io.Decoders;
 import io.jsonwebtoken.security.Keys;
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.security.core.GrantedAuthority;
-import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.SecretKey;
@@ -42,12 +40,16 @@ public class JwtUtils {
 
     public boolean validateJwtToken(String jwtToken){
         try{
-            Jwts.parser().verifyWith((SecretKey) key()).build()
+            Jwts.parser()
+                    .verifyWith((SecretKey) key())
+                    .build()
                     .parseSignedClaims(jwtToken);
-        } catch (Exception e){
+        }
+        catch (Exception e){
             e.printStackTrace();
         }
         return true;
+
     }
 
     private Key key(){
@@ -56,7 +58,8 @@ public class JwtUtils {
 
     public String getUserIdFromToken(String jwt) {
         return Jwts.parser().verifyWith((SecretKey) key())
-                .build().parseSignedClaims(jwt)
+                .build()
+                .parseSignedClaims(jwt)
                 .getPayload().getSubject();
     }
 

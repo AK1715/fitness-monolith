@@ -7,6 +7,7 @@
     <list default="true" id="873d6e0e-7ae6-4f0e-9cd3-8b7378f1a82c" name="Changes" comment="Spring Security With Roles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/controller/ActivityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/controller/ActivityController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/controller/AuthController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/dto/RegisterRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/dto/RegisterRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/CustomUserDetailsService.java" afterDir="false" />
@@ -37,6 +38,7 @@
       </GitPushTagMode>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/fitness-monolith" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
@@ -272,5 +274,15 @@
     <MESSAGE value="new changes" />
     <MESSAGE value="Spring Security With Roles" />
     <option name="LAST_COMMIT_MESSAGE" value="Spring Security With Roles" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="io.jsonwebtoken.MalformedJwtException" package="io.jsonwebtoken" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
