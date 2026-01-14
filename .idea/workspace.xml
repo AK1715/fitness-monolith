@@ -15,6 +15,7 @@
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/JwtUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/security/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +87,11 @@
   </component>
   <component name="RunManager" selected="Application.FitnessMonolithApplication">
     <configuration name="FitnessMonolithApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DB_URL" value="jdbc:mysql://localhost:3306/fitness" />
+        <env name="DB_USER" value="root" />
+        <env name="DB_PWD" value="$1715Akshay" />
+      </envs>
       <option name="MAIN_CLASS_NAME" value="com.project.fitness.FitnessMonolithApplication" />
       <module name="demo" />
       <extension name="coverage">
@@ -100,7 +106,7 @@
     </configuration>
     <configuration name="SpringSecurityApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.spring_security.SpringSecurityApplication" />
-      <module name="spring-security" />
+      <module name="demo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.spring_security.*" />
@@ -120,6 +126,10 @@
       <option name="filePath" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.FitnessMonolithApplication" />
+      <item itemvalue="Application.SpringSecurityApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FitnessMonolithApplication" />
