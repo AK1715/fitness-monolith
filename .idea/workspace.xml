@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="873d6e0e-7ae6-4f0e-9cd3-8b7378f1a82c" name="Changes" comment="Spring Security With Roles">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fitness-monolith/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/modal/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/java/com/project/fitness/modal/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fitness-monolith/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fitness-monolith/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -80,9 +82,9 @@
   <component name="RunManager">
     <configuration name="FitnessMonolithApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
-        <env name="DB_URL" value="jdbc:mysql://localhost:3306/fitness" />
-        <env name="DB_USER" value="root" />
-        <env name="DB_PWD" value="$1715Akshay" />
+        <env name="DB_URL" value="jdbc:postgresql://ep-autumn-shadow-a1rud947-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&amp;channelBinding=require" />
+        <env name="DB_USER" value="neondb_owner" />
+        <env name="DB_PWD" value="npg_pJmP8Qrjw3le" />
       </envs>
       <option name="MAIN_CLASS_NAME" value="com.project.fitness.FitnessMonolithApplication" />
       <module name="demo" />
