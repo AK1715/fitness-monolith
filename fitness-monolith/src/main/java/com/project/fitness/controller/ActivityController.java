@@ -5,7 +5,6 @@ import com.project.fitness.dto.ActivityResponse;
 import com.project.fitness.service.ActivitiesService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

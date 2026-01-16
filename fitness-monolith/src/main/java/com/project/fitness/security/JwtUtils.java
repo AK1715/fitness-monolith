@@ -20,10 +20,10 @@ public class JwtUtils {
 
     public String getJwtFromHeader(HttpServletRequest request){
         String bearerToken = request.getHeader("Authorization");
-        if(bearerToken != null && bearerToken.startsWith("Bearer")){
+        if(bearerToken != null && bearerToken.startsWith("Bearer ")){
             return bearerToken.substring(7);
         }else{
-            return "Null";
+            return null;
         }
     }
 
